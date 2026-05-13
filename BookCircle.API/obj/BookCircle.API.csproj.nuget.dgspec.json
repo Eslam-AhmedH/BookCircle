@@ -1,36 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BookCircle\\BookCircle.API\\BookCircle.API.csproj": {}
+    "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.API\\BookCircle.API.csproj": {}
   },
   "projects": {
-    "D:\\BookCircle\\BookCircle.API\\BookCircle.API.csproj": {
+    "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.API\\BookCircle.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BookCircle\\BookCircle.API\\BookCircle.API.csproj",
+        "projectUniqueName": "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.API\\BookCircle.API.csproj",
         "projectName": "BookCircle.API",
-        "projectPath": "D:\\BookCircle\\BookCircle.API\\BookCircle.API.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\BookCircle\\BookCircle.API\\obj\\",
+        "projectPath": "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.API\\BookCircle.API.csproj",
+        "packagesPath": "C:\\Users\\Asser elsayed\\.nuget\\packages\\",
+        "outputPath": "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Asser elsayed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\BookCircle\\BookCircle.Core\\BookCircle.Core.csproj": {
-                "projectPath": "D:\\BookCircle\\BookCircle.Core\\BookCircle.Core.csproj"
+              "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.Core\\BookCircle.Core.csproj": {
+                "projectPath": "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.Core\\BookCircle.Core.csproj"
               },
-              "D:\\BookCircle\\BookCircle.Infrastructure\\BookCircle.Infrastructure.csproj": {
-                "projectPath": "D:\\BookCircle\\BookCircle.Infrastructure\\BookCircle.Infrastructure.csproj"
+              "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.Infrastructure\\BookCircle.Infrastructure.csproj": {
+                "projectPath": "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.Infrastructure\\BookCircle.Infrastructure.csproj"
               }
             }
           }
@@ -87,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -505,22 +511,28 @@
         }
       }
     },
-    "D:\\BookCircle\\BookCircle.Core\\BookCircle.Core.csproj": {
+    "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.Core\\BookCircle.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BookCircle\\BookCircle.Core\\BookCircle.Core.csproj",
+        "projectUniqueName": "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.Core\\BookCircle.Core.csproj",
         "projectName": "BookCircle.Core",
-        "projectPath": "D:\\BookCircle\\BookCircle.Core\\BookCircle.Core.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\BookCircle\\BookCircle.Core\\obj\\",
+        "projectPath": "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.Core\\BookCircle.Core.csproj",
+        "packagesPath": "C:\\Users\\Asser elsayed\\.nuget\\packages\\",
+        "outputPath": "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Asser elsayed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -574,7 +586,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -852,30 +864,36 @@
         }
       }
     },
-    "D:\\BookCircle\\BookCircle.Infrastructure\\BookCircle.Infrastructure.csproj": {
+    "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.Infrastructure\\BookCircle.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BookCircle\\BookCircle.Infrastructure\\BookCircle.Infrastructure.csproj",
+        "projectUniqueName": "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.Infrastructure\\BookCircle.Infrastructure.csproj",
         "projectName": "BookCircle.Infrastructure",
-        "projectPath": "D:\\BookCircle\\BookCircle.Infrastructure\\BookCircle.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\BookCircle\\BookCircle.Infrastructure\\obj\\",
+        "projectPath": "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.Infrastructure\\BookCircle.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Asser elsayed\\.nuget\\packages\\",
+        "outputPath": "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Asser elsayed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\BookCircle\\BookCircle.Core\\BookCircle.Core.csproj": {
-                "projectPath": "D:\\BookCircle\\BookCircle.Core\\BookCircle.Core.csproj"
+              "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.Core\\BookCircle.Core.csproj": {
+                "projectPath": "C:\\FCAIH\\Level 3\\BookCircle\\BookCircle\\BookCircle.Core\\BookCircle.Core.csproj"
               }
             }
           }
@@ -925,7 +943,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
