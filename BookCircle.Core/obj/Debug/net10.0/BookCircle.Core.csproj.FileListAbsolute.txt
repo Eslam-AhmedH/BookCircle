@@ -1,0 +1,12 @@
+D:\BookCircle\BookCircle.Core\obj\Debug\net10.0\BookCircle.Core.csproj.AssemblyReference.cache
+D:\BookCircle\BookCircle.Core\obj\Debug\net10.0\BookCircle.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\BookCircle\BookCircle.Core\obj\Debug\net10.0\BookCircle.Core.AssemblyInfoInputs.cache
+D:\BookCircle\BookCircle.Core\obj\Debug\net10.0\BookCircle.Core.AssemblyInfo.cs
+D:\BookCircle\BookCircle.Core\obj\Debug\net10.0\BookCircle.Core.csproj.CoreCompileInputs.cache
+D:\BookCircle\BookCircle.Core\bin\Debug\net10.0\BookCircle.Core.deps.json
+D:\BookCircle\BookCircle.Core\bin\Debug\net10.0\BookCircle.Core.dll
+D:\BookCircle\BookCircle.Core\bin\Debug\net10.0\BookCircle.Core.pdb
+D:\BookCircle\BookCircle.Core\obj\Debug\net10.0\BookCircle.Core.dll
+D:\BookCircle\BookCircle.Core\obj\Debug\net10.0\refint\BookCircle.Core.dll
+D:\BookCircle\BookCircle.Core\obj\Debug\net10.0\BookCircle.Core.pdb
+D:\BookCircle\BookCircle.Core\obj\Debug\net10.0\ref\BookCircle.Core.dll

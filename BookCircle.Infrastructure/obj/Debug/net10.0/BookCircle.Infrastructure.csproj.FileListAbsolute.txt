@@ -1,0 +1,17 @@
+D:\BookCircle\BookCircle.Infrastructure\bin\Debug\net10.0\BookCircle.Infrastructure.deps.json
+D:\BookCircle\BookCircle.Infrastructure\bin\Debug\net10.0\BookCircle.Infrastructure.runtimeconfig.json
+D:\BookCircle\BookCircle.Infrastructure\bin\Debug\net10.0\BookCircle.Infrastructure.dll
+D:\BookCircle\BookCircle.Infrastructure\bin\Debug\net10.0\BookCircle.Infrastructure.pdb
+D:\BookCircle\BookCircle.Infrastructure\bin\Debug\net10.0\BookCircle.Core.dll
+D:\BookCircle\BookCircle.Infrastructure\bin\Debug\net10.0\BookCircle.Core.pdb
+D:\BookCircle\BookCircle.Infrastructure\obj\Debug\net10.0\BookCircle.Infrastructure.csproj.AssemblyReference.cache
+D:\BookCircle\BookCircle.Infrastructure\obj\Debug\net10.0\BookCircle.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\BookCircle\BookCircle.Infrastructure\obj\Debug\net10.0\BookCircle.Infrastructure.AssemblyInfoInputs.cache
+D:\BookCircle\BookCircle.Infrastructure\obj\Debug\net10.0\BookCircle.Infrastructure.AssemblyInfo.cs
+D:\BookCircle\BookCircle.Infrastructure\obj\Debug\net10.0\BookCircle.Infrastructure.csproj.CoreCompileInputs.cache
+D:\BookCircle\BookCircle.Infrastructure\obj\Debug\net10.0\BookCirc.88C9D462.Up2Date
+D:\BookCircle\BookCircle.Infrastructure\obj\Debug\net10.0\BookCircle.Infrastructure.dll
+D:\BookCircle\BookCircle.Infrastructure\obj\Debug\net10.0\refint\BookCircle.Infrastructure.dll
+D:\BookCircle\BookCircle.Infrastructure\obj\Debug\net10.0\BookCircle.Infrastructure.pdb
+D:\BookCircle\BookCircle.Infrastructure\obj\Debug\net10.0\BookCircle.Infrastructure.genruntimeconfig.cache
+D:\BookCircle\BookCircle.Infrastructure\obj\Debug\net10.0\ref\BookCircle.Infrastructure.dll

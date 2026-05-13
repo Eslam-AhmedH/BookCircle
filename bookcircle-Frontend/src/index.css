@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-surface text-on-surface font-sans antialiased;
+    }
+
+    * {
+        @apply selection:bg-primary/30;
+    }
+}
+
+@layer utilities {
+    .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .glass-panel {
+        background: rgba(28, 27, 27, 0.6);
+        backdrop-filter: blur(20px);
+    }
+}
