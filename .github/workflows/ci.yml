@@ -1,0 +1,50 @@
+name: CI Build
+
+on:
+  push:
+    branches: [ "main", "develop" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  # ── Build .NET Backend ──────────────────────────────
+  build-backend:
+    name: Build .NET Backend
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore BookCircle.sln
+
+      - name: Build solution
+        run: dotnet build BookCircle.sln --no-restore --configuration Release
+
+  # ── Build React Frontend ───────────────────────────
+  build-frontend:
+    name: Build React Frontend
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./bookcircle-Frontend
+
+      - name: Build production
+        run: npm run build
+        working-directory: ./bookcircle-Frontend
