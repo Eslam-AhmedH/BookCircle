@@ -1,0 +1,3 @@
+# Team leader gets auto-added to ALL pull requests
+* @Eslam-AhmedH
+
