@@ -1,1 +1,1 @@
-Original line from MAIN
+DIFFERENT line from CONFLICT branch
