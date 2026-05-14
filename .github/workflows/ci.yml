@@ -7,11 +7,10 @@ on:
     branches: [ "main" ]
 
 jobs:
-  # ── Build .NET Backend ──────────────────────────────
+  # ── Build .NET Backend ─────────────────────────────
   build-backend:
-    name: Build .NET Backend
+    name: Build Backend (.NET)
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -19,7 +18,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '9.0.x'
+          dotnet-version: '10.0.x'
 
       - name: Restore dependencies
         run: dotnet restore BookCircle.sln
@@ -29,9 +28,8 @@ jobs:
 
   # ── Build React Frontend ───────────────────────────
   build-frontend:
-    name: Build React Frontend
+    name: Build Frontend (React)
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -39,7 +37,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22.17.x'
 
       - name: Install dependencies
         run: npm install
